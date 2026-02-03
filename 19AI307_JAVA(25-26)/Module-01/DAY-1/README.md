@@ -5,7 +5,7 @@ Lovely enters a mystical Power Chamber with 10 doors.
 Behind each door is a magic symbol that changes her power in a unique way using compound assignment operators.
 
 She starts with an initial power value, and here's what happens at each door:
-
+```
 Door	Operation	Description
 1	+=5	Adds 5 to the power
 2	-=3	Subtracts 3
@@ -27,7 +27,7 @@ Print the result after each door in this format:
 Initial Power = <value>
 After Door 1 (+= 5): <value>
 After Door 2 (-= 3): <value>
-...
+
 After Door 10 (>>= 1): <value>
 Final Power = <value>
 
@@ -47,7 +47,7 @@ After Door 8 (^= 4): 6
 After Door 9 (<<= 1): 12
 After Door 10 (>>= 1): 6
 Final Power = 6
-
+```
 ## AIM:
 
 To write a Java program to demonstrate the use of data types, variables, and operators in Java programming.
@@ -97,3 +97,4 @@ public class main{
 ## RESULT:
 
 Thus, the Java program demonstrating the use of compound assignment operators was successfully executed and the output was verified.
+
