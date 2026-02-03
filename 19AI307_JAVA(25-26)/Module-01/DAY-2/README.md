@@ -16,21 +16,26 @@ Write a java program to get the month from user and and display appropriate outp
 
 For example:
 
-Input	Result
+Input	
 2
+
+Result
 First Quarter
 
 ## AIM:
 
+To write a Java program using conditional statements to read a month number from the user and display the corresponding quarter of the year.
 
 ## ALGORITHM :
-1.	Start the program.
-2.	Import the necessary package 'java.util'
-3.	
-
-
-
-
+1. Start the program.
+2. Import the necessary package 'java.util'
+3. Read the month number from the user.
+4. If the month is 1, 2, or 3, display “First Quarter”.
+5. Else if the month is 4, 5, or 6, display “Second Quarter”.
+6. Else if the month is 7, 8, or 9, display “Third Quarter”.
+7. Else if the month is 10, 11, or 12, display “Fourth Quarter”.
+8. Else, display “Invalid Month”.
+9. Stop the program.
 
 ## PROGRAM:
  ```
@@ -73,4 +78,5 @@ public class Main{
 
 
 ## RESULT:
+Thus, the Java program to determine the quarter of the year based on the given month number was successfully executed and the output was verified.
 
